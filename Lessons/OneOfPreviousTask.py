@@ -8,7 +8,7 @@ import time
 
 link = "http://suninjuly.github.io/explicit_wait2.html"
 #browser = webdriver.Chrome('C:\WORK\AllDrivers\chromedriver.exe')
-browser = webdriver.Chrome('')
+browser = webdriver.Chrome()
 # говорим WebDriver ждать все элементы в течение 5 секунд
 browser.implicitly_wait(5)
 wait = WebDriverWait(browser, 13) #explicitwaiter - явные
